@@ -1,0 +1,24 @@
+{
+  "name": "Challenge-Oracle-ONE",
+  "author": "FabianMolinaB",
+  "version": "0.1.0-beta",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "format": "prettier --write .",
+    "lint": "eslint . --fix"
+  },
+  "devDependencies": {
+    "eslint": "8.38.0",
+    "eslint-config-prettier": "8.8.0",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-n": "15.7.0",
+    "eslint-plugin-promise": "6.1.1",
+    "prettier": "2.8.7",
+    "vite": "4.3.0-beta.2"
+  },
+  "license": "MIT license"
+}
