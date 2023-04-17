@@ -5,9 +5,57 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="styles/styles.css" rel="stylesheet" />
+
+    <!-- Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
+
   <body>
-    <h1>Hola como estas?</h1>
+    <div class="main_container">
+      <div class="container_1">
+        <div class="container_logo">
+          <img class="logo" src="./public/Logo.svg" alt="logo alura" />
+        </div>
+      </div>
+
+      <div class="container_2">
+        <input type="text" class="" placeholder="Ingrese el texto aquí" />
+        <p>
+          <span class="icon">
+            <img
+              class="icon-image"
+              src="./public/Icon.svg"
+              alt="Icono de texto"
+            />
+          </span>
+          <span class="content">Solo letras minúsculas y sin acentos</span>
+        </p>
+        <div>
+          <button class="button button_main">Encriptar</button>
+          <button class="button button_secundary">Desencriptar</button>
+        </div>
+      </div>
+
+      <div class="container_3">
+        <div>
+          <img class="img" src="./public/Muñeco.svg" alt="muñeco" />
+          <h3>Ningún mensaje fue encontrado</h3>
+          <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+        </div>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint
+            cillum sint consectetur cupidatat.
+          </p>
+          <button class="button button_secundary">Copiar</button>
+        </div>
+      </div>
+    </div>
   </body>
   <script type="module" src="/main.js"></script>
 </html>
