@@ -1,10 +1,9 @@
 :root {
   /* Fonts */
   --font-family-regular: "Open Sans", sans;
-  /*--font-size-title: 1.6rem;*/
-  /*--font-size-regular: 20px;*/
-  /*--font-weight-title: 600;*/
-  /*--font-weight-regular: 400;*/
+  --font-size-title: 1.6rem;
+  --font-size-regular: 1rem;
+  --font-weight-title: 600;
 
   /*Color */
   --background-color-dark: #2e3440;
