@@ -1,0 +1,32 @@
+@import "./const.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: var(--font-family-regular);
+  /*font-size: var(--font-size-regular);*/
+  /*color: var(--white-color);*/
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.main_container {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+}
+
+.container_logo {
+  display: block;
+  height: 31px;
+  width: 48px;
+}
+
+.logo {
+}
