@@ -46,8 +46,8 @@ body {
 .textarea {
   background-color: var(--background-color-dark);
   color: var(--white-color);
-  font-size: 1rem;
-  font-family: regular;
+  font-size: var(--font-size-regular);
+  font-family: "Open Sans", sans;
   border: none;
   border-radius: 1rem;
   padding: 1rem;
@@ -61,7 +61,8 @@ body {
 }
 
 .area_notification {
-  margin: 10px 0;
+  font-size: 0.8rem;
+  margin: 15px 0;
 }
 .container_bottons {
   display: flex;
