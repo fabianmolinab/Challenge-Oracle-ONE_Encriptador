@@ -43,7 +43,7 @@ body {
 }
 
 .textarea {
-  background-color: var(--background-color-dark);
+  background-color: var(--background-color-hard-dark);
   color: var(--white-color);
   font-size: var(--font-size-regular);
   font-family: "Open Sans", sans;
@@ -111,11 +111,33 @@ body {
   padding: 1.5rem;
   width: 40%;
 }
-.container_muñeco {
+.container_doll {
   display: none;
+  /*display: flex;*/
+  flex-direction: column;
+  justify-content: center;
 }
 
-.container_res {
+.img-doll {
+  max-width: 200px;
+  margin-bottom: 20px;
+}
+
+.container-message {
+  text-align: center;
+}
+
+.container-message h3 {
+  margin-bottom: 10px;
+  font-size: 19px;
+}
+
+.container-message p {
+  font-size: 17px;
+}
+
+.container_reply {
+  /*display: none;*/
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -126,7 +148,4 @@ body {
   margin-bottom: 10px;
 }
 
-.img-muñeco {
-  max-width: 200px;
-}
 /*--------------*/
