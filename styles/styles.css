@@ -16,12 +16,14 @@ body {
   max-width: 1200px;
   color: var(--white-color);
   background-color: var(--background-color-hard-dark);
+  height: 50rem;
 }
 
 .main_container {
   display: flex;
   justify-content: space-around;
   padding: 40px;
+  height: 100%;
 }
 
 /*----Container Logo---*/
@@ -30,8 +32,8 @@ body {
 }
 
 .container_logo {
-  height: 31px;
-  width: 48px;
+  max-height: 31px;
+  max-width: 48px;
 }
 
 /*-----Container_2*/
@@ -42,7 +44,7 @@ body {
   margin: 0 20px;
 }
 
-.textarea {
+.container_2 textarea {
   background-color: var(--background-color-hard-dark);
   color: var(--white-color);
   font-size: var(--font-size-regular);
@@ -50,12 +52,13 @@ body {
   border: none;
   border-radius: 1rem;
   padding: 1rem;
-  height: 100%;
   outline: none;
   resize: none;
+  height: 100% !important;
+  box-sizing: border-box !important;
 }
 
-.textarea::placeholder {
+.container_2 input:placeholder {
   color: var(--white-color);
 }
 
