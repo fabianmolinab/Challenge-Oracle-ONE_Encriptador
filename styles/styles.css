@@ -33,6 +33,12 @@ body {
   }
 }
 
+@media screen and (max-width: 425px) {
+  .main_container {
+    padding: 0.8rem;
+    justify-content: space-around;
+  }
+}
 /*-------*/
 /*----Container Logo---*/
 .container_1 {
@@ -129,6 +135,12 @@ body {
   }
 }
 
+@media screen and (max-width: 425px) {
+  .container_2 textarea {
+    font-size: 1rem;
+    padding: 0;
+  }
+}
 /*-------------*/
 
 /*--- Container 3*/
@@ -195,6 +207,12 @@ body {
 
   .container_reply p {
     margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .img-doll {
+    display: none;
   }
 }
 /*--------------*/
