@@ -5,12 +5,13 @@ html {
   font-size: var(--font-size-regular);
 }
 
+/*---- Main and body sections---*/
 body {
   margin: 0 auto;
   max-width: 1200px;
   color: var(--white-color);
   background-color: var(--background-color-hard-dark);
-  height: 50rem;
+  height: 40rem;
 }
 
 .main_container {
@@ -20,14 +21,29 @@ body {
   height: 100%;
 }
 
+/* Tablet Styles */
+@media screen and (max-width: 768px) {
+  body {
+    height: 100vh;
+  }
+  .main_container {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1.5rem;
+  }
+}
+
+/*-------*/
 /*----Container Logo---*/
 .container_1 {
   width: 10%;
 }
 
-.container_logo {
-  max-height: 31px;
-  max-width: 48px;
+@media screen and (max-width: 768px) {
+  .container_1 {
+    width: 100%;
+    text-align: center;
+  }
 }
 
 /*-----Container_2*/
@@ -48,8 +64,8 @@ body {
   padding: 1rem;
   outline: none;
   resize: none;
-  height: 100% !important;
-  box-sizing: border-box !important;
+  height: 100%;
+  box-sizing: border-box;
 }
 
 .container_2 input:placeholder {
@@ -97,6 +113,22 @@ body {
 .button_secundary-copy:hover {
   background-color: var(--green-light-color);
 }
+
+/*tablet*/
+@media screen and (max-width: 768px) {
+  .container_2 {
+    display: block;
+    width: 100%;
+    height: 50%;
+    margin: 0;
+  }
+
+  .container_2 textarea {
+    height: 70%;
+    width: 100%;
+  }
+}
+
 /*-------------*/
 
 /*--- Container 3*/
@@ -105,7 +137,7 @@ body {
   background-color: var(--background-color-dark);
   border-radius: 12px;
   display: flex;
-  padding: 1.5rem;
+  padding: 1rem;
   width: 40%;
 }
 .container_doll {
@@ -141,8 +173,28 @@ body {
   align-items: center;
 }
 
-.container_res p {
-  margin-bottom: 10px;
+.container_reply p {
+  margin: 0;
+  line-height: 1.2rem;
 }
 
+@media screen and (max-width: 768px) {
+  .container_3 {
+    display: block;
+    width: auto;
+  }
+
+  .container_doll {
+    display: block;
+    text-align: center;
+  }
+
+  .container_reply {
+    display: none;
+  }
+
+  .container_reply p {
+    margin-bottom: 1rem;
+  }
+}
 /*--------------*/

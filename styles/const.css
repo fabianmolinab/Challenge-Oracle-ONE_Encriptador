@@ -5,6 +5,16 @@
   --font-size-regular: 1.2rem;
   --font-weight-title: 600;
 
+  /*Sizes*/
+  /* Mobile S - 320px
+     Mobile M - 375px
+     Mobile L - 425px
+     Tablet - 768px
+     Laptop - 1024px
+     Laptop L - 1440px
+     4K - 2560px
+  */
+
   /*Color */
   --background-color-dark: #2e3440;
   --background-color-hard-dark: #242933;
